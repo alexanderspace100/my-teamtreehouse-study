@@ -1,18 +1,59 @@
 /* @import 'import_style.css'; */
 
 body {
-  text-align: center;
+  color: #878787;
+  margin: 0;
 }
 
-h1 {
-  font-size: 72px;
-  color: white;
-}
-
-header {
+.main-header {
   background-color: orange;
 }
 
-p {
+.title {
+  color: white;
+  font-size: 26px;
+}
+
+h1 {
+  font-size: 90px;
+  color: white;
+}
+
+h2 {
+  font-size: 53px;
+}
+
+h3 {
   font-size: 20px;
+  color: #48525c;
+}
+
+.primary-content {
+  text-align: center;
+}
+
+.t-border {
+  border-top: 2px solid lightgrey;
+}
+
+#main-footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  border-bottom: solid 10px orange;
+}
+
+a:link {
+  color: orange;
+}
+
+a:visited {
+  color: lightblue;
+}
+
+a:hover {
+  color: forestgreen;
+}
+
+a:active {
+  color: lightcoral;
 }
